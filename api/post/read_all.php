@@ -14,7 +14,7 @@
   $post = new Post($db);
 
   // Blog post query
-  $result = $post->read();
+  $result = $post->read_all();
   // get row count
   $num = $result->rowCount();
 
